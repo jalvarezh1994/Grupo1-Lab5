@@ -9,6 +9,12 @@ class Pieza{
 
 		Pieza();
 		Pieza(int, int, int);
+		int getColor();
+		void setColor(int);
+		int getX();
+		int getY();
+		void setX();
+		void getY();
+:wq		
 		
-
 };
