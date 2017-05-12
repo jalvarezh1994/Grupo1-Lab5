@@ -7,7 +7,7 @@ class Marine : Pieza{
 		public:
 			Marine();
 			Marine(int, int, int);
-			bool Mover(Pieza**, int, int);			
+			bool Mover(Pieza**, int, int, int, int);			
 
 
 };

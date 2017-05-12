@@ -9,6 +9,6 @@ class General : public Pieza{
 	public:
 		General();
 		General(int, int,int);
-		bool Mover(Pieza**, int, int);
+		bool Mover(Pieza**, int, int, int, int);
 
 };

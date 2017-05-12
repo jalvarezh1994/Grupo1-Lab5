@@ -13,8 +13,8 @@ class Pieza{
 		void setColor(int);
 		int getX();
 		int getY();
-		void setX();
-		void getY();
-:wq		
+		void setX(int);
+		void setY(int);
+		
 		
 };

@@ -1,4 +1,5 @@
-main: Marine.o General.o Pieza.o -o main
+main:	Marine.o General.o Pieza.o main.o 
+	g++ Marine.o General.o Pieza.o main.o -lncurses -o main
 
 main.o: main.cpp Marine.h General.h Pieza.h
 	g++ -c main.cpp
