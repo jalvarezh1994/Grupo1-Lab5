@@ -1,6 +1,5 @@
 #include <iostream>
 #include <ncurses.h>
-<<<<<<< HEAD
 #include "Pieza.h"
 #include "General.h"
 #include "Marine.h"
@@ -8,15 +7,6 @@
 using namespace std;
 
 void imprimeMatriz(Pieza **,int,int);
-=======
-<<<<<<< HEAD
-#include "Pieza.h"
-#include "General.h"
-#include "Marine.h"
-=======
-//#include "Pieza.h"
->>>>>>> 79d55fbe34ff9d27537e7f34883553ef26bec91b
->>>>>>> 7b1a389fe489ac91c4cb485b95f04d3d92f3fe0c
 
 int main(){
 	int n=8;
@@ -27,7 +17,7 @@ int main(){
         for (int i = 0; i < filas; i++) {
                 pm[i] = new Pieza[columnas];
         }
-	Pieza p(0,0,0);
+	General p(1,1,1);
 	pm[0][0]=p;
 	initscr();
 	start_color();
@@ -42,11 +32,11 @@ int main(){
 
 
 void imprimeMatriz(Pieza **pm,int filas,int columnas){
-        for(int i=0;i<filas;i++){
-                for(int j=0;j<columnas;j++){
-			if(){
+	for(int i=0;i<filas;i++){
+        	for(int j=0;j<columnas;j++){
+	/*		if(){
 				mvprintw(i,j,"a")
-			}
+			}*/
                 }
         }
 }

@@ -1,6 +1,5 @@
-class Pieza{
-
 #pragma once
+class Pieza{
 	protected:
 		int x;
 		int y;
