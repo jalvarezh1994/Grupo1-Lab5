@@ -1,21 +1,29 @@
 #include <iostream>
 #include <ncurses.h>
-//#include "Pieza.h"
+#include "Pieza.h"
+#include "General.h"
+#include "Marine.h"
+
+using namespace std;
+
+void imprimeMatriz(Pieza **,int,int);
 
 int main(){
-/*	Pieza **pm;
+	int n=8;
+	Pieza **pm;
         int filas=n;
         int columnas=n;
         pm = new Pieza* [filas];
         for (int i = 0; i < filas; i++) {
-                pm[i] = new int[columnas];
+                pm[i] = new Pieza[columnas];
         }
-*/
+	Pieza p(0,0,0);
+	pm[0][0]=p;
 	initscr();
 	start_color();
 	init_pair(1,COLOR_RED,COLOR_WHITE);
 	attron(COLOR_PAIR(1));
-	mvprintw(1,2,"a");
+	imprimeMatriz(pm,8,8);
 	attroff(COLOR_PAIR(1));
 	getch();
 	endwin();
@@ -26,7 +34,9 @@ int main(){
 void imprimeMatriz(Pieza **pm,int filas,int columnas){
         for(int i=0;i<filas;i++){
                 for(int j=0;j<columnas;j++){
-                        
+			if(){
+				mvprintw(i,j,"a")
+			}
                 }
         }
 }
