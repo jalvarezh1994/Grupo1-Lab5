@@ -3,7 +3,7 @@ class Pieza{
 	protected:
 		int x;
 		int y;
-		int color;
+		int color;//0-blanco  1-negro  2--vacío
 
 	public:
 
@@ -15,6 +15,6 @@ class Pieza{
 		int getY();
 		void setX(int);
 		void setY(int);
-		
+	
 		
 };
