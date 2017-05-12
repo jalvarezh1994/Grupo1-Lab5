@@ -1,8 +1,12 @@
 #include <iostream>
 #include <ncurses.h>
+<<<<<<< HEAD
 #include "Pieza.h"
 #include "General.h"
 #include "Marine.h"
+=======
+//#include "Pieza.h"
+>>>>>>> 79d55fbe34ff9d27537e7f34883553ef26bec91b
 
 int main(){
 /*	Pieza **pm;
