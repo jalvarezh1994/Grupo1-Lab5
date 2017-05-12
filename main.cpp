@@ -13,7 +13,7 @@ int main(){
 */
 	initscr();
 	start_color();
-	init_pair(1,COLOR_RED,COLOR_BLACK);
+	init_pair(1,COLOR_RED,COLOR_WHITE);
 	attron(COLOR_PAIR(1));
 	mvprintw(1,2,"a");
 	attroff(COLOR_PAIR(1));
@@ -21,13 +21,12 @@ int main(){
 	endwin();
 	return 0;
 }
-/*
+
+
 void imprimeMatriz(Pieza **pm,int filas,int columnas){
         for(int i=0;i<filas;i++){
                 for(int j=0;j<columnas;j++){
-                        cout<<pm[i][j]<<"\t";
+                        
                 }
-                cout<<endl;
         }
 }
-*/
