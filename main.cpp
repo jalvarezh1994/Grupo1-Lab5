@@ -18,7 +18,7 @@ int main(){
                 pm[i] = new Pieza[columnas];
         }
 	General p(1,1,1);
-	pm[0][0]=p;
+	pm[5][7]=p;
 	initscr();
 	start_color();
 	init_pair(1,COLOR_RED,COLOR_WHITE);
@@ -34,9 +34,11 @@ int main(){
 void imprimeMatriz(Pieza **pm,int filas,int columnas){
 	for(int i=0;i<filas;i++){
         	for(int j=0;j<columnas;j++){
-	/*		if(){
-				mvprintw(i,j,"a")
-			}*/
+			if(pm[i][j].getColor()==1){
+				mvprintw(i,j,"a ");
+			}else{
+				mvprintw(i,j,"b ");
+			}
                 }
         }
 }
