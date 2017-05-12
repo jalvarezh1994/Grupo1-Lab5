@@ -1,5 +1,6 @@
 #include <iostream>
 #include <ncurses.h>
+<<<<<<< HEAD
 #include "Pieza.h"
 #include "General.h"
 #include "Marine.h"
@@ -7,6 +8,15 @@
 using namespace std;
 
 void imprimeMatriz(Pieza **,int,int);
+=======
+<<<<<<< HEAD
+#include "Pieza.h"
+#include "General.h"
+#include "Marine.h"
+=======
+//#include "Pieza.h"
+>>>>>>> 79d55fbe34ff9d27537e7f34883553ef26bec91b
+>>>>>>> 7b1a389fe489ac91c4cb485b95f04d3d92f3fe0c
 
 int main(){
 	int n=8;

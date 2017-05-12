@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #include "Pieza.h"
+=======
+#include <Pieza.h>
+>>>>>>> 7b1a389fe489ac91c4cb485b95f04d3d92f3fe0c
 
 Pieza::Pieza(){
 
